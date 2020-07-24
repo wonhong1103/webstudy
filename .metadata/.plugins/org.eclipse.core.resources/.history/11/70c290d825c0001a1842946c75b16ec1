@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>StringClass</title>
+<script type="text/javascript">
+	var str1 = 'Hello';
+	var str2 = new String('welcome');
+	
+	// 출력
+	document.write(str1+"<br>");
+	document.write(str2+"<br>");
+	
+	// length: 길이
+	document.write(str1.length+"<br>");
+	document.write(str2.length+"<br>");
+
+	// charAt(n) : n번째 문자 구하기
+	
+	
+	
+</script>
+</head>
+<body>
+
+</body>
+</html>

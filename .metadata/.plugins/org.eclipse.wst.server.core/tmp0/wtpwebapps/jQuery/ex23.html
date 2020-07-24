@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript">
+	$(function() {
+		$("btn").click(function(){
+			setInterval(() =>{
+				position +=5;
+				$("img").css("marginLef", position);
+			}, 200);
+		});
+		$("img").click(function(){
+			
+		})
+	});
+</script>
+</head>
+<body>
+	<p><button id="btn">이동</button></p>
+	<div>
+		<img alt="" src="images/image1.gif">
+	</div>
+</body>
+</html>

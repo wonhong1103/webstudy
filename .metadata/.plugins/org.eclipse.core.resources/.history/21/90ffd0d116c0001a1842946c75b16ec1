@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>콜백함수</title>
+<script type="text/javascript">
+	// 콜백함수 : 	어떤 이벤트가 발생한후, 수행될 함수를 의미한다.
+	//			  	함수 내부의 처리 결과값을 함수외부로 내보낼때 사용
+	//			  	함수를 하나의 매개변수로 사용하는 것
+	//			  	보통은 비동기 프로그래밍
+	//	function 이름(callback){
+	//		실행문;
+	//		callback(결과);
+	//	}
+	fuction myfunc() {
+		alert("경고메세지1");
+	}
+	
+	
+	function send_go1() {
+		// 정해진 시간 이후에 콜백함수 실행
+		// setTimeout(콜백함수, milliseconds);
+		// setTimeout(()=>, milliseconds);
+		
+		// 3초후 콜백함수 실행
+		setTimeout(콜백함수, 3000);
+	}
+	
+	
+</script>
+</head>
+<body>
+	<button onclick="send_go1()"> 클릭 1 </button>
+	<button onclick="send_go2()"> 클릭 2 </button>
+	<button onclick="send_go3()"> 클릭 3 </button>
+	<button onclick="send_go4()"> 클릭 4 </button>
+</body>
+</html>

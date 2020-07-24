@@ -1,0 +1,14 @@
+127.0.0.1 - - [09/Jul/2020:15:43:53 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [09/Jul/2020:15:43:54 +0900] "GET /javascript/ex24_DOM.html HTTP/1.1" 200 1611
+83.97.20.34 - - [09/Jul/2020:16:07:58 +0900] "GET / HTTP/1.0" 404 807
+0:0:0:0:0:0:0:1 - - [09/Jul/2020:17:22:48 +0900] "GET /javascript/ex28_Event.html HTTP/1.1" 200 1049
+0:0:0:0:0:0:0:1 - - [09/Jul/2020:17:23:13 +0900] "GET /javascript/ex28_Event.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [09/Jul/2020:17:23:38 +0900] "GET /javascript/ex28_Event.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [09/Jul/2020:17:23:43 +0900] "GET /javascript/ex28_Event.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [09/Jul/2020:17:24:03 +0900] "GET /javascript/ex28_Event.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [09/Jul/2020:17:29:14 +0900] "GET /javascript/ex07_for.html HTTP/1.1" 200 949
+0:0:0:0:0:0:0:1 - - [09/Jul/2020:17:33:15 +0900] "GET /javascript/ex08_while.html HTTP/1.1" 200 640
+127.0.0.1 - - [09/Jul/2020:17:41:53 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [09/Jul/2020:17:41:54 +0900] "GET /javascript/ex08_while.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [09/Jul/2020:17:43:02 +0900] "GET /javascript/ex08_while.html HTTP/1.1" 200 560
+0:0:0:0:0:0:0:1 - - [09/Jul/2020:18:08:42 +0900] "GET /javascript/ex11_function.html HTTP/1.1" 200 606

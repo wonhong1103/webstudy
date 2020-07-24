@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	.bg{background-color: yellow;}
+	.fg{color: red;}
+	.horizental{
+		float:left
+		list-style:none;
+		margin: 20px;
+	}
+</style>
+</head>
+<body>
+	<h2>
+		<ul id="menu1">
+			<li><u>java</u></li>
+			<li>html&css</li>
+			<li>servlet&jsp</li>
+			<li>spring</li>
+		</ul>	
+		
+		<ul id="menu2">
+			<li><u>android</u></li>
+			<li>iphone</li>
+			<li>window <u>phone</u></li>
+			<li>mobile</li>
+		</ul>	
+	</h2>
+</body>
+</html>

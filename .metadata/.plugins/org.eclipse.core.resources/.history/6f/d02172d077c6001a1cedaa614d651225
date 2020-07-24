@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>[속성]</title>
+<style type="text/css">
+	.f_red{color: red;}
+	.f_orange{color: orange;}
+	.f_silver{color: silver;}
+	.f_purple{color: purple;}
+</style>
+<script type="text/javascript">
+	$(function(){
+		//요소[속성] : 해당 속성이 있는 요소
+		$("a[href]").addClass("f_red");
+		
+		// 요소[속성=값] : 해당속성과 일치하는 요소
+		$("a[href=https://www.daum.net]").addClass("f_orange");
+	});
+</script>
+</head>
+<body>
+	<a href="https://www.naver.com">네이버</a>
+	<a href="https://www.daum.net">다음</a>
+	<a href="https://www.google.com">구글</a>
+	<a href="mailto:nojm73@naver.com">네이버</a>
+	<a href="mailto:nojm73@daum.net">다음</a>
+	<a href="mailto:nojm73@gmail.com">구글</a>
+</body>
+</html>

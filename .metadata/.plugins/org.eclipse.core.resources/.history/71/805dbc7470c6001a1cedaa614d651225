@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>addClass</title>
+<style type="text/css">
+	.selected{color: blue};
+	.bg{background-color: yellow;}
+	div{background-color: green;}
+	.white{color: white;}
+</style>
+</head>
+<body>
+	<p>Hello</p>
+	<p>and</p>
+	<p>Goodbey</p>
+	
+	<div>This div</div>
+	<div class="white">This div</div>
+	<div id="box">This div</div>
+	<div>This div</div>
+	<div>This div</div>
+	<div>This div</div>
+	<div>This div</div>
+</body>
+</html>

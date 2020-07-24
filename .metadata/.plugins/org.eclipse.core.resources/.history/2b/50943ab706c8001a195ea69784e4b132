@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<p id ="demo1"> 뭘봐 </p>
+
+<p id ="res1"></p>
+<script type="text/javascript">
+	var my1 = document.getElementById("demo1");
+	document.getElementById("res1").innerHTML = my1.innerHTML
+</script>
+</body>
+</html>

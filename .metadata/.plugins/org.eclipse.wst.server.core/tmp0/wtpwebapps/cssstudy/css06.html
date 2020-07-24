@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>margin: 밖 여백</title>
+<style type="text/css">
+	div{
+		border: 1px solid black;
+		/* margin: 50px;  상하좌우 모두 50px */
+		/* margin: 50px 25px  상하 50 좌우25 */
+		/* margin: 25px 50px 75px 100px;  상하 50 좌우25 */
+		background-color: skyblue;
+	}
+	div.mydiv1{
+		background-color: tomato;
+		text-align: center;
+		margin: 0px;
+	}
+	div.mydiv2{
+		background-color: silver;
+		width: 200px;
+		text-align: center;
+		margin: 0 auto;
+	}
+	#mydiv3{
+		background-color: olive;
+		width: 200px;
+		text-align: center;
+		margin-left: 200px;
+		
+	}
+</style>
+</head>
+<body>
+	<h2> margin 연습 </h2>
+	<div> margin 연습 margin 연습 margin 연습 margin 연습 margin 연습</div>
+	<div class="mydiv1"> margin 연습 margin 연습 margin 연습 margin 연습 margin 연습</div>
+	<div class="mydiv2"> margin 연습 margin 연습 margin 연습 margin 연습 margin 연습</div>
+	<div id="mydiv3"> 
+		<p class="myclass">margin 연습 margin 연습 margin 연습 margin 연습 margin 연습</p>
+	</div>
+</body>
+</html>

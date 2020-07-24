@@ -1,0 +1,16 @@
+127.0.0.1 - - [23/Jun/2020:14:40:18 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [23/Jun/2020:14:40:18 +0900] "GET /htmlstudy/day01/html01.html HTTP/1.1" 200 228
+127.0.0.1 - - [23/Jun/2020:15:16:58 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [23/Jun/2020:15:16:58 +0900] "GET /htmlstudy/day02/html01.html HTTP/1.1" 200 1017
+0:0:0:0:0:0:0:1 - - [23/Jun/2020:15:22:08 +0900] "GET /htmlstudy/day02/html01.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [23/Jun/2020:15:22:08 +0900] "GET /favicon.ico HTTP/1.1" 404 818
+0:0:0:0:0:0:0:1 - - [23/Jun/2020:15:25:42 +0900] "GET /htmlstudy/day02/html01.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [23/Jun/2020:15:25:43 +0900] "GET /htmlstudy/day02/html01.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [23/Jun/2020:15:25:49 +0900] "GET /htmlstudy/day02/html02.html HTTP/1.1" 200 378
+0:0:0:0:0:0:0:1 - - [23/Jun/2020:15:26:34 +0900] "GET /htmlstudy/day02/html02.html HTTP/1.1" 200 474
+0:0:0:0:0:0:0:1 - - [23/Jun/2020:15:27:52 +0900] "GET /htmlstudy/day02/html02.html HTTP/1.1" 200 507
+0:0:0:0:0:0:0:1 - - [23/Jun/2020:15:32:57 +0900] "GET /htmlstudy/day02/html02.html HTTP/1.1" 200 608
+0:0:0:0:0:0:0:1 - - [23/Jun/2020:15:33:36 +0900] "GET /htmlstudy/day02/html02.html HTTP/1.1" 200 736
+0:0:0:0:0:0:0:1 - - [23/Jun/2020:16:02:36 +0900] "GET /htmlstudy/day02/html02.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [23/Jun/2020:16:02:43 +0900] "GET /htmlstudy/day02/html03.html HTTP/1.1" 200 1235
+0:0:0:0:0:0:0:1 - - [23/Jun/2020:17:46:38 +0900] "GET /htmlstudy/day02/html06.html HTTP/1.1" 200 1273

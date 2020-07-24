@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>StringClass</title>
+<script type="text/javascript">
+	var str1 = 'Hello';
+	var str2 = new String('안녕하세요');
+	
+	// 출력
+	document.write(str1+"<br>");
+	document.write(str2+"<br>");
+	
+	// length: 길이
+	document.write(str1.length+"<br>");
+	document.write(str2.length+"<br>");
+	
+	//charAt(n) : n번째 문자 구하기 
+	document.write(str1.charAt(0)+"<br>");
+	document.write(str2.charAt(0)+"<br>");
+	
+	// concat(str) : 현재문자열 뒤에 문자열 추가 하기 ('+'와 같은 개념)
+	document.write(str1.concat(" World~~")+"<br>");
+	document.write(str2.concat(" World~~")+"<br>");
+	
+	// indexOf('문자|문자열'): 해당 문자 또는 문자열에 위치값을 구한다.
+	// 정규식 사용 못함, -1은 없다는 뜻이다.
+	document.write(str1.indexOf('l')+"<br>");
+	
+	// indexOf('문자|문자열', 검색시작위치두번째는 첫번째 지나서 다음위치부터)):
+	document.write(str1.indexOf('l',str1.indexOf('l')+1)+"<br>");
+	
+	// lastIndexOf('문자|문자열') : 해당 문자또는 문자열의 마지막 위치값
+	document.write(str1.lastIndexOf('l')+"<br>");
+		
+	// search('문자|문자열') : 해당 문자 또는 문자열 찾아 위치값 구한다.
+	document.write(str1.search('l'));
+	
+</script>
+</head>
+<body>
+</body>
+</html>

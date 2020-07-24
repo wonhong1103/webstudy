@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript">
+	// 마우스이벤트 : click(=on, =bind), dblclick, mouseover(mouseenter), mouseout(mouseleave)
+	// 키보드이벤트 : keypress, keydown, keyup
+	// form이벤트   : submit, change, focus,  
+	
+	// 클릭
+	$(function() {
+	 
+		// 클릭
+		 $("#p1").click(function() {  alert("클릭 성공");});
+		// $("#p1").on("click",function() { alert("클릭 성공");});
+		// $("#p1").bind("click",function() {alert("클릭 성공");	});
+		
+		// 더블
+		// $("#p1").dblclick(function() { 	alert("더블 클릭 성공"); });
+		
+		// 마우스포인트을 올릴때, 벗어날때 
+		// $("#p1").mouseover(function() {  alert("클릭 성공");});
+		// $("#p1").mouseenter(function() {  alert("클릭 성공");});
+	 	// $("#p1").mouseout(function() {  alert("클릭 성공");});
+		// $("#p1").mouseleave(function() {  alert("클릭 성공");});
+		
+		 $("#img").mouseover(function() { 
+			 // alert("성공");
+			 $(this).attr("src","images/pic_bulbon.gif");
+		 });
+		 $("#img").mouseout(function() {
+			 // alert("실패");
+			  $(this).attr("src","images/pic_bulboff.gif");
+		 });
+		
+		 $("#name").keyup(function() {
+			// alert("누르셨네요");
+			// 입력한 값 가져오기 
+			var name = $(this).val();
+			alert(name);
+		});
+		// 체그박스
+		$("#chk").change(function() {
+			// var str = $("#id").val(); // get
+			// $("#id2").val(str);       //set
+			
+			if($(this).is(":checked")){  //is(":checked") => 체크박스가 체그상태이냐?
+				var str = $("#id").val(); 
+				$("#id2").val(str); 
+			}else{
+				$("#id2").val(""); 
+			}
+		});
+		
+		// 라디오
+		$(":radio").change(function() {
+			if($(this).is(":checked")){  //is(":checked") => 체크박스가 체그상태이냐?
+				var str = $(":checked").val(); 
+				$("#res").val(str); 
+			}
+		});
+		$("#pwd2").keyup(function() {
+			if($("#pwd").val() == $("#pwd2").val()){
+				$("#s1").html("<b>암호가 맞네요</b>");
+			}else{
+				// $("#pwd2").val("");
+				$("#s1").html("<b>암호가 틀리네요</b>");
+			}
+		});
+		
+	});
+	
+</script>
+</head>
+<body>
+	<p><span id="p1"> 이벤트 처리 </span></p>
+	<p><img id="img" src="images/pic_bulboff.gif"></p>
+	<p><input type="text" name="name" id="name"></p>
+	<hr>
+	
+	<p><input type="text" name="id" id="id"></p>
+	<p><input type="checkbox" id="chk" >상동</p>
+	<p><input type="text" name="id2" id="id2"></p>
+	<hr>
+	<input type="radio" name="fruit" value="orange"> 오랜지
+	<input type="radio" name="fruit" value="apple" > 사과
+	<input type="radio" name="fruit" value="banana"> 바나나
+	<p><input type="text" name="res" id="res"></p>
+	<hr>
+	
+	<p>비번 :     <input type="password" name="pwd"  id="pwd"></p>
+	<p>비번확인 : <input type="password" name="pwd2" id="pwd2">
+		<span id="s1"></span>
+	</p>
+</body>
+</html>
+
+
+
+
+

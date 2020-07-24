@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>객체 : Object</title>
+<script type="text/javascript">
+	function prn(msg) {
+		document.write(msg+"<br>");
+	}
+	
+	var person = {
+			name:"둘리",
+			age:18,
+			salary:2400,
+			pay:function(){
+				var month = this.salary / 12;
+				prn("이름: "+this.name+", 월급: "+month);
+			}			
+	};
+	
+	person.play();
+	
+</script>
+
+</head>
+<body>
+
+</body>
+</html>

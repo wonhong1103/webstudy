@@ -1,0 +1,16 @@
+127.0.0.1 - - [30/Jun/2020:15:16:33 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [30/Jun/2020:15:16:33 +0900] "GET /htmlstudy/day07/html01.html HTTP/1.1" 200 990
+0:0:0:0:0:0:0:1 - - [30/Jun/2020:15:17:20 +0900] "GET /htmlstudy/day07/html01.html HTTP/1.1" 200 971
+0:0:0:0:0:0:0:1 - - [30/Jun/2020:15:17:29 +0900] "GET /htmlstudy/day07/html01.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [30/Jun/2020:15:17:34 +0900] "GET /htmlstudy/day07/html01.html HTTP/1.1" 200 990
+0:0:0:0:0:0:0:1 - - [30/Jun/2020:15:18:02 +0900] "GET /htmlstudy/day07/html01.html HTTP/1.1" 200 1021
+0:0:0:0:0:0:0:1 - - [30/Jun/2020:15:21:17 +0900] "GET /htmlstudy/day07/html01.html HTTP/1.1" 200 1193
+0:0:0:0:0:0:0:1 - - [30/Jun/2020:15:51:34 +0900] "GET /htmlstudy/day07/html01.html HTTP/1.1" 200 1461
+0:0:0:0:0:0:0:1 - - [30/Jun/2020:16:01:05 +0900] "GET /htmlstudy/day07/html01.html HTTP/1.1" 200 2320
+0:0:0:0:0:0:0:1 - - [30/Jun/2020:16:01:24 +0900] "GET /htmlstudy/day07/html01.html HTTP/1.1" 200 2319
+0:0:0:0:0:0:0:1 - - [30/Jun/2020:16:01:37 +0900] "GET /htmlstudy/day07/html01.html HTTP/1.1" 200 2319
+0:0:0:0:0:0:0:1 - - [30/Jun/2020:16:02:11 +0900] "GET /htmlstudy/day07/html01.html HTTP/1.1" 200 2427
+0:0:0:0:0:0:0:1 - - [30/Jun/2020:16:02:49 +0900] "GET /htmlstudy/day07/html01.html HTTP/1.1" 200 2427
+193.118.53.202 - - [30/Jun/2020:16:16:45 +0900] "GET /Telerik.Web.UI.WebResource.axd?type=rau HTTP/1.1" 404 837
+0:0:0:0:0:0:0:1 - - [30/Jun/2020:16:17:55 +0900] "GET /htmlstudy/day07/html01.html HTTP/1.1" 200 2604
+0:0:0:0:0:0:0:1 - - [30/Jun/2020:16:17:55 +0900] "GET /htmlstudy/images/pic_bulbon.gif HTTP/1.1" 304 -

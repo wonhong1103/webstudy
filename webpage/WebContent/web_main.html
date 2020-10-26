@@ -9,7 +9,7 @@
 	
 	img{border: none; vertical-align: top;}
 	li img{width: 300px;}
-	ul li{list-style: none; float: left; width: 300px;}
+	#banner > li{list-style: none; float: left; width: 300px;}
 	#banner_wrap{width: 900px; padding: 20px; margin: 0 auto; border: 1px solid gray;}
 	#frame{width: 900px; overflow: hidden; position: relative; margin: 10px auto;}
 	#banner{width: 50000000000px;}
@@ -74,7 +74,6 @@
 
             /* 절대 좌표 */
             height: 160px;
-            position: relative;           
         }
         #main_header > #title {
             position: absolute;
@@ -104,7 +103,7 @@
         
     </style>
 <style type="text/css">
-#sidebar {float:left; width: 200px; height:800px; background-color: gray;}
+#sidebar {float:left; width: 200px; height:800px; background-color: gray; }
 #sidebar > ul ul{list-style:none; margin:0px; padding:0px; position:relative; text-align:center;}
 #sidebar > ul li li {width:200px; height: 30px; line-height: 30px;}
 #sidebar > ul ul li:hover {background-color: #D4F4FA;}
@@ -121,19 +120,19 @@
 		<h1 style="Font-size:80px; text-align: center; color: black;"><a href="web_main.html">가나다라</a></h1>
 		</div>
 		<nav id="main_gnb">
-			<ul id="q_menu">
-				<li><a href="#">장바구니</a></li>
-				<li><a href="#">마이페이지</a></li>
-				<li><a href="#">로그인</a></li>
+			<ul>
+				<li class="m_bar"><a href="#">장바구니</a></li>
+				<li class="m_bar"><a href="#">마이페이지</a></li>
+				<li class="m_bar"><a href="#">로그인</a></li>
 			</ul>
 		</nav>
 	
 	</header>
 <div id = "sidebar">	
 	<ul>
-		<li>menu1
+		<li>TOP
 			<ul>
-				<li>m menu1
+				<li>OUTER
 					<ul>
 					<li><a href="#">s menu1</a></li>
 					<li><a href="#">s menu2</a></li>
@@ -142,7 +141,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li>m menu2
+				<li>JACKET
 					<ul>
 					<li><a href="#">s menu1</a></li>
 					<li><a href="#">s menu2</a></li>
@@ -151,37 +150,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li>m menu3
-					<ul>
-					<li><a href="#">s menu1</a></li>
-					<li><a href="#">s menu2</a></li>
-					<li><a href="#">s menu3</a></li>
-					</ul>
-				</li>
-			</ul>
-		</li>
-		<hr>
-		<li>menu2
-			<ul>
-				<li>m menu1
-					<ul>
-					<li><a href="#">s menu1</a></li>
-					<li><a href="#">s menu2</a></li>
-					<li><a href="#">s menu3</a></li>
-					</ul>
-				</li>
-			</ul>
-			<ul>
-				<li>m menu2
-					<ul>
-					<li><a href="#">s menu1</a></li>
-					<li><a href="#">s menu2</a></li>
-					<li><a href="#">s menu3</a></li>
-					</ul>
-				</li>
-			</ul>
-			<ul>
-				<li>m menu3
+				<li>SHIRTS
 					<ul>
 					<li><a href="#">s menu1</a></li>
 					<li><a href="#">s menu2</a></li>
@@ -191,9 +160,9 @@
 			</ul>
 		</li>
 		<hr>
-		<li>menu3
+		<li>BOTTOM
 			<ul>
-				<li>m menu1
+				<li>JEANS
 					<ul>
 					<li><a href="#">s menu1</a></li>
 					<li><a href="#">s menu2</a></li>
@@ -202,7 +171,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li>m menu2
+				<li>SLACKS
 					<ul>
 					<li><a href="#">s menu1</a></li>
 					<li><a href="#">s menu2</a></li>
@@ -211,11 +180,41 @@
 				</li>
 			</ul>
 			<ul>
-				<li>m menu3
+				<li>SHORTS
 					<ul>
 					<li><a href="#">s menu1</a></li>
 					<li><a href="#">s menu2</a></li>
 					<li><a href="#">s menu3</a></li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+		<hr>
+		<li>ACCESSORY
+			<ul>
+				<li>SHOES
+					<ul>
+					<li><a href="#">s menu1</a></li>
+					<li><a href="#">s menu2</a></li>
+					<li><a href="#">s menu3</a></li>
+					</ul>
+				</li>
+			</ul>
+			<ul>
+				<li>BAGS
+					<ul>
+					<li><a href="#">s menu1</a></li>
+					<li><a href="#">s menu2</a></li>
+					<li><a href="#">s menu3</a></li>
+					</ul>
+				</li>
+			</ul>
+			<ul>
+				<li>ACCESSORY
+					<ul>
+					<li><a href="#">ring</a></li>
+					<li><a href="#">necklace</a></li>
+					<li><a href="#">watch</a></li>
 					</ul>
 				</li>
 			</ul>
@@ -224,9 +223,9 @@
 		
 		
 		<div class= "other">
-			<li><a href="#">other</a></li>
-			<li><a href="#">other</a></li>
-			<li><a href="#">other</a></li>
+			<li><a href="#">QnA</a></li>
+			<li><a href="#">공지사항</a></li>
+			<li><a href="#">후기</a></li>
 		</div>
 	</ul>
 </div>
